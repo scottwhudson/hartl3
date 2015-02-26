@@ -302,3 +302,34 @@ Started GET "/assets/application-9d71a2f6dda6b569ca80f60714aabe8b.js?body=1" for
 
 
 Started GET "/assets/rails-15ff13e9c3486ddd78bc91be8063523d.png" for ::1 at 2015-02-20 15:05:52 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-26 15:28:25 -0600
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1314ms (Views: 1304.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-02-26 15:28:27 -0600
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for 127.0.0.1 at 2015-02-26 15:28:27 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-02-26 15:28:27 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-02-26 15:28:27 -0600
+
+
+Started GET "/assets/static_pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-26 15:28:27 -0600
+
+
+Started GET "/assets/application-9d71a2f6dda6b569ca80f60714aabe8b.js?body=1" for 127.0.0.1 at 2015-02-26 15:28:27 -0600
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-02-26 15:28:27 -0600
+
+
+Started GET "/assets/rails-15ff13e9c3486ddd78bc91be8063523d.png" for 127.0.0.1 at 2015-02-26 15:28:27 -0600
