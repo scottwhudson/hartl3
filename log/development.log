@@ -657,3 +657,49 @@ Processing by StaticPagesController#about as HTML
   Rendered layouts/_header.html.erb (0.2ms)
   Rendered layouts/_footer.html.erb (0.2ms)
 Completed 200 OK in 66ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2015-03-02 16:04:45 -0600
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 484ms (Views: 473.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-03-02 16:04:46 -0600
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-03-02 16:04:46 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-03-02 16:04:46 -0600
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-03-02 16:04:46 -0600
+
+
+Started GET "/assets/static_pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-03-02 16:04:46 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-03-02 16:04:46 -0600
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-03-02 16:04:46 -0600
+
+
+Started GET "/assets/application-18f10afd70767e0049304380ce89b979.js?body=1" for ::1 at 2015-03-02 16:04:46 -0600
+
+
+Started GET "/assets/rails-15ff13e9c3486ddd78bc91be8063523d.png" for ::1 at 2015-03-02 16:04:46 -0600
+
+
+Started GET "/signup" for ::1 at 2015-03-02 16:04:47 -0600
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (1.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 145ms (Views: 143.4ms | ActiveRecord: 0.0ms)
