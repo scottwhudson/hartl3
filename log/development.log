@@ -3611,3 +3611,23 @@ Migrating to AddRememberDigestToUsers (20150407153452)
             WHERE name='index_users_on_email' AND type='index'
 [0m
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+
+
+Started GET "/" for ::1 at 2015-06-19 09:58:39 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/Users/scottwalkerhudson/Documents/OwnLocal/Development/hartl3/app/helpers/sessions_helper.rb:18: syntax error, unexpected ( arg, expecting keyword_then or ';' or '\n'
+      if user && user.authenticated? (cookies[:remember_token])
+                                      ^
+/Users/scottwalkerhudson/Documents/OwnLocal/Development/hartl3/app/helpers/sessions_helper.rb:34: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/helpers/sessions_helper.rb:18: syntax error, unexpected ( arg, expecting keyword_then or ';' or '\n'
+  app/helpers/sessions_helper.rb:34: syntax error, unexpected keyword_end, expecting end-of-input
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/static_pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/scottwalkerhudson/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.4ms)
+  Rendered /Users/scottwalkerhudson/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/scottwalkerhudson/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (11.0ms)
+  Rendered /Users/scottwalkerhudson/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /Users/scottwalkerhudson/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (95.9ms)
